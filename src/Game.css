@@ -1,0 +1,9 @@
+.bg{display: flex; height: 1000px;top:0px;width:1000px;margin: auto;left:0px;position: relative;}
+.cg{width: 50%; height: 100%; margin: 20px;}
+.dg{width: 50%; height: 100%;margin: 20px;}
+.circle{width:100px;height:100px;border:5px solid green; border-radius:50%;color:green;font-size:20px;padding:12px;}
+.but{height:100px;width: 100px;border:2px solid royalblue;color:royalblue;}
+.but:hover{cursor:pointer;box-shadow:3px 3px 3px gray;background-color: white;color:royalblue;border:2px solid royalblue;}
+.link{margin:10px 0px 0px 0px;cursor:pointer;position:absolute;color:royalblue;bottom:-370px;border:1px solid royalblue;padding:2px;border-radius:3px;left:5px;}
+.link:hover{box-shadow:3px 3px gray;}
+.imagepassive{display:none !important;}

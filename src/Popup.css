@@ -1,0 +1,32 @@
+.popup {display:flex; background-color:rgba(33,33,33,0.2);  height:100vh; width:100vw; position:fixed; top:0; left:0;}
+.popup >div{height:500px; width:700px; background-color:white; border:2px solid black; border-radius:10px; margin:auto; display:block;display:flex;position:relative;}
+.popupunActive{display: none !important;}
+img{ margin-Bottom: 20px;margin:auto; }
+.a{width: 700px;height: 200px;position: relative;top: 150px;display: flex; flex-direction: column}
+.ab{width: 700px;height: 100px;position: relative;top: 150px;display: flex; flex-direction: row;margin: auto;flex:2;}
+.b{flex:1;margin:10px 0px 0px 100px;}
+.c{flex:1;margin:10px;}
+.d{margin:10px auto;width:250px;height:250px;}
+h1{font-family: Calibri;font-size: 55px;color:chocolate;flex: 1;text-align:center;}
+h2{flex: 1;color:limegreen;text-align: center;}
+h4{flex: 1;color:dodgerblue;text-align: center;}
+button{margin: auto;width: 200px;height: 100px;font-family: Calibri;color: royalblue;border: 2px solid royalblue;border-radius: 3px;cursor: pointer;font-size:20px;}
+button:hover {
+    background-color:royalblue;
+    border: 2px solid white;
+    color: white;
+  }
+.all{display:none}
+.popup1 {display:none; background-color:rgba(33,33,33,0.2);  height:100vh; width:100vw; position:fixed; top:0; left:0;}
+.popup1 >div{height:500px; width:700px; background-color:white; border:2px solid black; border-radius:10px; margin:auto; display:block;display:flex;position:relative;flex-direction:column;}
+.popupActive1{display: flex !important;}
+.popupPassive{display: none !important;}
+
+.popup2 {display:none; background-color:rgba(33,33,33,0.2);  height:100vh; width:100vw; position:fixed; top:0; left:0;}
+.popup2 >div{height:500px; width:700px; background-color:white; border:2px solid black; border-radius:10px; margin:auto; display:block;display:flex;position:relative;}
+.popupActive1{display: flex !important;}
+
+input{width:200px;margin:2px;}
+.rate{width:300px;height:100px;margin:auto;display:flex;}
+.rate >div{ cursor: pointer;display: inline-block;font-Size: 36px;padding: 0 5px;color: #ccc;flex:1}
+.rate >div:hover{background-color: blue;cursor:pointer;}

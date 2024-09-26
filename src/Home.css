@@ -1,0 +1,12 @@
+.home{flex:1;margin: 5px;font-family: Calibri;color: royalblue;border: 5px solid royalblue;border-radius: 3px;cursor: pointer;font-size:20px;}
+.home:hover {
+    background-color:royalblue;
+    border: 5px solid white;
+    color: white;
+  }
+  .image{display:flex;width:1200px;height:auto;flex-direction:column;margin:auto;}
+  h3{text-align:center;}
+  .link3{border:1px solid;border-radius:3px; padding:10px;margin:10px;margin-bottom:0px;cursor:pointer;}
+  .link3:hover{box-shadow:3px 3px gray;}
+  .false{display: none;}
+  .bbb:hover{background-color: white;box-shadow:3px 3px 3px gray;cursor:pointer;}
