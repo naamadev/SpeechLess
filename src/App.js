@@ -12,6 +12,8 @@ import Home from './Home';
 import Camera from './Camera';
 import Game from './Game';
 import Speech from './Speech';
+import 'rsuite/dist/rsuite.min.css';
+
 
 const App = () => {
   const bounceAnimation = keyframes`${bounce}`;
