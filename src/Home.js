@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './Home.css'
 import './Popup.css'
 import Popup from './Popup';
-import { send } from './Popup';
 import { useState } from 'react';
 
 
@@ -17,7 +16,7 @@ export default function Home() {
 
    let {code}=useParams();
    let c='true';
-    if(code==1)
+    if(code===1)
         c='false'
 
     return(

@@ -1,5 +1,5 @@
 import './Game.css'
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect} from 'react';
 import './Camera.css'
 import A from './A.png';
 import B from './B.png';
@@ -24,7 +24,7 @@ export default function Game() {
       setletter(letters[randomIndex])
       console.log(letters[randomIndex])
     }
-  }, [showImage, images]);
+  }, [showImage, images, letters]);
 
   useEffect(() => {
     if (imageUrl) {
@@ -47,7 +47,7 @@ export default function Game() {
     <div class="cg">
       <button class="but" onClick={handleButtonClick}>Show Image</button>
       {imageUrl && (
-        <img src={imageUrl} alt="Random image" style={{border:'3px solid royalblue',margin:'5px'}} />
+        <img src={imageUrl} alt="Random" style={{border:'3px solid royalblue',margin:'5px'}} />
       )}
     </div>
 

@@ -211,7 +211,6 @@ return(
 </select>
 </div>
 </div>
-<h1></h1>
 <button onClick={()=>signupUser()} style={{width:'150px',height:'50px',margin:'50px auto '}}>Get in</button>
 </div>
 </div>

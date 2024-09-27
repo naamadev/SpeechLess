@@ -5,13 +5,9 @@ import './SpeechLess (1).png';
 import { Link } from 'react-router-dom';
 import HomeIcon from './HomeIcon';
 import DwonFile from './DwonFile';
-import Speech from './Speech';
-
-
 
 const Camera = (props) => {
   const [stream, setStream] = useState(null);
-  const [prediction, setPrediction] = useState('');
   const [responseText, setResponseText] = useState('');
   const videoRef = useRef(null);
 
@@ -76,7 +72,7 @@ const Camera = (props) => {
     if (stream) {
       captureFrame();
     }
-  }, [stream]);
+  }, [stream, captureFrame]);
 
   return (
     <>

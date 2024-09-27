@@ -4,7 +4,6 @@ import './CameraGame.css'
 const CameraGame = (props) => {
   console.log(props.letter)
   const [stream, setStream] = useState(null);
-  const [prediction, setPrediction] = useState('');
   const [responseText, setResponseText] = useState('');
   const videoRef = useRef(null);
 
@@ -70,7 +69,7 @@ const CameraGame = (props) => {
     if (stream) {
       captureFrame();
     }
-  }, [stream]);
+  }, [stream, captureFrame]);
 
   function Question()
   {

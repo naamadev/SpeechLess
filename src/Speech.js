@@ -2,10 +2,7 @@ import "./Speech.css"
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import useClipboard from "react-use-clipboard";
 import {useState} from "react";
-import Camera from "./Camera";
 import { Link } from 'react-router-dom';
-import { Conversion } from "@rsuite/icons";
-
 
 
 const Speech = () => {
