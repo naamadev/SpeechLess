@@ -1,6 +1,5 @@
 //זה הקוד של פריים אחד
 import React, { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
 import './Camera.css'
 import './SpeechLess (1).png';
 import { Link } from 'react-router-dom';

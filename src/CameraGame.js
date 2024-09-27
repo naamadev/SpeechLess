@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
 import './CameraGame.css'
-import { FaQuestion } from 'react-icons/fa';
 
 const CameraGame = (props) => {
   console.log(props.letter)

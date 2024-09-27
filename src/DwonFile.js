@@ -1,5 +1,4 @@
 import React, { useState,useEffect } from 'react';
-import { SIZE } from 'rsuite/esm/utils/constants';
 
 function FileCreator(props) {
 

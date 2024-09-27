@@ -1,6 +1,5 @@
 import './Game.css'
 import React, { useState, useEffect, useRef } from 'react';
-import Camera from './Camera'
 import './Camera.css'
 import A from './A.png';
 import B from './B.png';
